@@ -13,7 +13,7 @@ const propertiesData = [
         image: "https://media-cdn.tripadvisor.com/media/photo-c/1280x250/09/a2/58/15/plaza-san-nicolas.jpg",
         lat: 10.9639,
         lng: -74.7964,  
-        description: "Hermosa casa moderna en el exclusivo barrio El Poblado, con amplios espacios, acabados de lujo y vista panorámica."
+        description: "Hermosa casa moderna en el exclusivo barrio Barranquilla, con amplios espacios, acabados de lujo y vista panorámica."
     },
     {
         id: 2,
@@ -29,7 +29,7 @@ const propertiesData = [
         image: "https://www.eycbienesraices.com/wp-content/uploads/WPL/290/thimg_20231003_105948_1000x750.jpg",
         lat: 4.7110,
         lng: -74.0721,  
-        description: "Hermosa casa moderna en el exclusivo barrio El Poblado, con amplios espacios, acabados de lujo y vista panorámica."
+        description: "Hermosa casa moderna en la ciudad de Bogotá, con amplios espacios, acabados de lujo y vista panorámica."
     },
     {
         id: 3,
@@ -45,7 +45,7 @@ const propertiesData = [
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
         lat: 3.2630,
         lng: -76.5377,  
-        description: "Hermosa casa moderna en el exclusivo barrio El Poblado, con amplios espacios, acabados de lujo y vista panorámica."
+        description: "Hermosa casa moderna en Jamundi, con amplios espacios, acabados de lujo y vista panorámica."
     },
     {
         id: 4,
@@ -61,7 +61,7 @@ const propertiesData = [
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
         lat: 6.1532,
         lng: -75.3740,  
-        description: "Hermosa casa moderna en el exclusivo barrio El Poblado, con amplios espacios, acabados de lujo y vista panorámica."
+        description: "Hermosa casa moderna en Rionegro, con amplios espacios, acabados de lujo y vista panorámica."
     }
 
 
