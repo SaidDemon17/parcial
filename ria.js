@@ -1,4 +1,3 @@
-// Datos de propiedades
 const propertiesData = [
     {
         id: 1,
@@ -68,7 +67,6 @@ const propertiesData = [
 
 ];
 
-// Componente PropertyCard
 function PropertyCard({ property, onViewDetail }) {
     const discount = Math.round(((property.oldPrice - property.price) / property.oldPrice) * 100);
     
@@ -100,7 +98,6 @@ function PropertyCard({ property, onViewDetail }) {
     );
 }
 
-// Componente PropertyDetail
 function PropertyDetail({ property, onBack }) {
     return (
         <div className="property-detail">
@@ -179,7 +176,6 @@ function PropertyDetail({ property, onBack }) {
     );
 }
 
-// Componente Home
 function Home({ properties, onViewDetail, onFilterChange, onSortChange }) {
     return (
         <div className="home">
@@ -223,7 +219,6 @@ function Home({ properties, onViewDetail, onFilterChange, onSortChange }) {
     );
 }
 
-// Componente principal App
 function App() {
     const [properties, setProperties] = React.useState(propertiesData);
     const [selectedProperty, setSelectedProperty] = React.useState(null);
@@ -231,7 +226,6 @@ function App() {
     
     const handleViewDetail = (property) => {
         setSelectedProperty(property);
-        // Usamos el hash para manejar la navegación
         window.location.hash = `detalle-${property.id}`;
     };
     
@@ -263,7 +257,6 @@ function App() {
                 sorted.sort((a, b) => b.price - a.price);
                 break;
             default:
-                // Orden por defecto (podría ser el original)
                 sorted = [...properties];
                 break;
         }
@@ -271,7 +264,6 @@ function App() {
         setFilteredProperties(sorted);
     };
     
-    // Verificar si estamos en vista de detalle (por hash)
     React.useEffect(() => {
         const hash = window.location.hash;
         if (hash.startsWith('#detalle-')) {
@@ -300,5 +292,4 @@ function App() {
     );
 }
 
-// Renderizar la aplicación
 ReactDOM.render(<App />, document.getElementById('root'));
