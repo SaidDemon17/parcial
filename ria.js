@@ -179,7 +179,7 @@ function PropertyDetail({ property, onBack }) {
 function Home({ properties, onViewDetail, onFilterChange, onSortChange }) {
     return (
         <div className="home">
-            <h1>Inmobiliaria Colombiana</h1>
+            <h1>Inmobiliaria_Colombiana</h1>
             
             <div className="filters">
                 <div className="filter-group">
